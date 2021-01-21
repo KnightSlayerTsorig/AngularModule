@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {cars} from '../../db/database';
+import {ICar} from '../interfaces';
 
 
 @Component({
@@ -9,6 +10,6 @@ import {cars} from '../../db/database';
 })
 export class CarsComponent {
 
-  cars = cars;
+  cars: ICar[] = cars;
 
 }
