@@ -35,12 +35,14 @@ export let cars = [
 
 export let users = [
   {name: 'Oleg', surname: 'Pilyak', age: 24},
-  {name: 'Chopper', surname: 'Pilyak', age: 24},
+  {name: 'Chopper', surname: 'Tony', age: 24},
   {name: 'Sobaka', surname: 'Pilyak', age: 24},
-  {name: 'Ira', surname: 'Pilyak', age: 24},
-  {name: 'Petro', surname: 'Pilyak', age: 24},
-]
+  {name: 'Ira', surname: 'uuuu', age: 24},
+  {name: 'Petro', surname: 'sdsdsd', age: 24},
+];
 
+
+export let anime = [1, 2, 3]
 
 
 
