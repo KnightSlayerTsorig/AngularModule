@@ -12,8 +12,7 @@ export class PostComponent implements OnInit {
   @Input()
   post: Post;
   @Output()
-    // tslint:disable-next-line:new-parens
-  bubbleUpPost = new EventEmitter;
+  bubbleUpPost = new EventEmitter<Post>();
 
   constructor() {
   }
