@@ -1,0 +1,4 @@
+<h1>{{chosenOne?.userId}} {{chosenOne?.id}} {{chosenOne?.title}}</h1>
+<hr>
+<app-post *ngFor="let p of posts" [post]="p" (bubbleUpPost)="getBubbleUpPost($event)">
+</app-post>
